@@ -9,6 +9,7 @@ namespace Pharmacy.IRepositories
 {
     public interface IMedicineRepository
     {
+        
         Medicine Add(Medicine medicine);
         string[] GetAll();
         void Delete(string medicine);
